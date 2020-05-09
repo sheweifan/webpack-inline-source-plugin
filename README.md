@@ -9,6 +9,6 @@
 ```javascript
 new WebpackInlineSourcePlugin(HtmlWebpackPlugin, {
   maxSize: 20 * 1024,
-  js: [path.resolve(__dirname, "./src/frontend-lib/dist/monitor.js")],
+  js: [path.resolve(__dirname, "./dist/monitor.js")],
 });
 ```
